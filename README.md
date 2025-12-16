@@ -1,105 +1,51 @@
-🎓 Student Exam Performance – Análisis y Predicción de Resultados
-📌 Descripción del proyecto
+🎓 Student Exam Performance – Análisis y Predicción
+📌 Descripción
 
-En este proyecto se analizan los datos académicos de estudiantes con el objetivo de identificar los factores que influyen en su desempeño en exámenes finales.
-Además, se desarrolla un modelo de regresión lineal para predecir la calificación final a partir de variables académicas y de comportamiento.
+Análisis de datos académicos para identificar los factores que influyen en el desempeño estudiantil y construir un modelo que predice la calificación final.
 
-🏫 Contexto de negocio
+🎯 Objetivo
 
-Las instituciones educativas buscan mejorar el rendimiento estudiantil y reducir el riesgo de bajo desempeño académico.
-Comprender qué factores tienen mayor impacto en los resultados permite:
-
-Optimizar estrategias de enseñanza
-
-Detectar estudiantes en riesgo
-
-Tomar decisiones basadas en datos para mejorar el rendimiento general
+Detectar variables clave del rendimiento académico y apoyar la toma de decisiones educativas basadas en datos.
 
 🧭 Metodología
-🔍 Análisis Exploratorio de Datos (EDA)
 
-Revisión de la estructura del dataset y tipos de variables
+EDA: limpieza, análisis de distribuciones y detección de patrones.
 
-Análisis de valores nulos y duplicados
+Visualización: análisis comparativo entre variables académicas.
 
-Evaluación de distribuciones y rangos normales
+Modelado: regresión lineal múltiple para predicción de calificaciones.
 
-Identificación de posibles valores atípicos
+🛠️ Tecnologías
 
-📊 Visualización Básica
+Python, Pandas, NumPy
 
-Distribución de calificaciones finales
+Matplotlib, Seaborn
 
-Análisis descriptivo de horas de estudio, sueño y asistencia
+Scikit-learn
 
-Comparación visual entre variables académicas
+Power BI (dashboard final)
 
-📈 Visualización Avanzada
+🔎 Insights clave
 
-Análisis de correlación entre variables
+Las horas de estudio y calificaciones previas son los factores más influyentes.
 
-Gráficos de dispersión para evaluar relaciones con la calificación final
+El sueño y la asistencia tienen impacto positivo moderado.
 
-Visualización de resultados reales vs valores predichos
+El modelo presenta buen desempeño predictivo (R² ≈ 0.85).
 
-📉 Modelado Predictivo
+Existe una relación lineal clara entre valores reales y predichos.
 
-Construcción de un modelo de regresión lineal múltiple
+🚀 Próximos pasos
 
-Variables explicativas:
+Fomentar hábitos de estudio consistentes.
 
-Horas de estudio
+Usar modelos predictivos para identificar estudiantes en riesgo.
 
-Horas de sueño
+Incorporar nuevas variables (métodos de estudio, factores socioeconómicos).
 
-Porcentaje de asistencia
-
-Calificaciones previas
-
-Evaluación del modelo mediante:
-
-R²
-
-RMSE
-
-🧪 Tecnologías utilizadas
-Tecnología	Uso
-Python	Lenguaje principal
-Pandas	Manipulación y análisis de datos
-NumPy	Cálculo numérico
-Matplotlib	Visualización
-Seaborn	Visualización estadística
-Scikit-learn	Modelado y regresión
-Power BI	Dashboard y visualización final
-🔎 Insights principales
-
-Las horas de estudio y las calificaciones previas son los factores con mayor influencia en el desempeño final.
-
-Las horas de sueño y la asistencia tienen un impacto positivo, pero menor.
-
-El modelo de regresión muestra una alta capacidad predictiva (R² ≈ 0.85).
-
-Existe una relación lineal clara entre valores reales y predichos, validando la utilidad del modelo.
-
-🚀 Recomendaciones
-
-Priorizar estrategias que fomenten hábitos de estudio consistentes.
-
-Utilizar modelos predictivos para identificar estudiantes en riesgo de bajo desempeño.
-
-Ampliar el análisis incorporando variables adicionales como métodos de estudio o factores socioeconómicos.
-
-Evaluar modelos más complejos para comparar desempeño predictivo.
+Comparar con modelos más avanzados.
 
 📊 Visualización
-[students.pdf](https://github.com/user-attachments/files/24187019/students.pdf)
 
-El proyecto incluye un dashboard en Power BI con:
-
-KPIs clave del modelo
-
-Distribución de calificaciones
-
-Relación entre variables académicas
-
-Comparación entre resultados reales y predichos
+El proyecto incluye un dashboard en Power BI con KPIs del modelo, distribución de calificaciones y comparación entre valores reales y predichos.
+[students.pdf](https://github.com/user-attachments/files/24187067/students.pdf)
