@@ -48,4 +48,5 @@ Comparar con modelos más avanzados.
 📊 Visualización
 
 El proyecto incluye un dashboard en Power BI con KPIs del modelo, distribución de calificaciones y comparación entre valores reales y predichos.
-[students.pdf](https://github.com/user-attachments/files/24187067/students.pdf)
+
+<img width="1986" height="1149" alt="Screenshot 2025-12-16 010353" src="https://github.com/user-attachments/assets/5f953425-4efe-4e13-b4c0-6b4b9ca3d7dd" />
